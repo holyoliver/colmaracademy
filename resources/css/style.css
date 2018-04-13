@@ -37,7 +37,7 @@ body{
 }
 .main{
 }
-nav{
+.menu{
   font-size: 1.2em;
   padding-right: 24px;
   display: block;
@@ -51,7 +51,7 @@ nav{
   color: #404040;
 }
 .mobilenav{
-  display: inline-block;
+  display: none;
   width: 100%;
   padding: 10px;
 }
@@ -174,10 +174,21 @@ nav span{
   width: 35%;
   height: auto;
 }
-@media only screen and (min-width: 480px) {
-/* Styles */
-.mobilenav{
+@media only screen and (max-width: 770px) {
+  .mobilenav{
+    display: inline-block;
+    text-align: right;
+  }
+.menu {
   display: none;
 }
-
+.container1{
+  display: block;
+  width: 100%;
+  flex-direction: row;
+}
+.leftcont{
+  width: 100%;
+  padding: 0 0 0 0;
+}
 }
