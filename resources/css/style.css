@@ -177,9 +177,29 @@ nav span{
 @media only screen and (max-width: 770px) {
   .mobilenav{
     display: inline-block;
-    text-align: right;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    width: 100%;
   }
+.learn{
+  width: 100%;
+  text-align: center;
+}
+.stories{
+  width: 100%;
+}
+.btn{
+  align-items: center;
+  padding: auto;
+}
 .menu {
+  display: none;
+}
+.logo img{
+  display: none;
+}
+.logo .colmar{
   display: none;
 }
 .container1{
@@ -190,5 +210,8 @@ nav span{
 .leftcont{
   width: 100%;
   padding: 0 0 0 0;
+}
+.leftcontainer{
+  display: none;
 }
 }
