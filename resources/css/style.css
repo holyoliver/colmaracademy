@@ -1,5 +1,4 @@
 html{
-  font-family: 'Raleway', sans-serif;
   font-size: 16px;
   margin: 0;
 }
@@ -15,7 +14,6 @@ header{
 }
 body{
   margin: 0 0 0 0;
-  width: 100%;
 }
 .logo{
   padding-left: 24px;
@@ -38,7 +36,6 @@ body{
 .logo img{
 }
 .main{
-  width: 100%;
 }
 nav{
   font-size: 1.2em;
@@ -71,9 +68,6 @@ nav span{
   display: flex;
   flex-direction: column;
   justify-content: center;
-}
-.learn{
-  padding-left: 40px;
   font-family: roboto;
 }
 .learn h1{
@@ -87,9 +81,90 @@ nav span{
 .learn h1, p{
   color: #484848;
 }
-.learn a{
+.btn{
+  display: inline-block;
   background-color: #484848;
-  width: 711px;
+  width: 80%;
+  text-align: center;
+  color: white;
+  text-decoration: none;
+  font-size: 1.8em;
+  padding: 30px 15px;
+  transition-property: background-color;
+  transition-duration: 750ms;
+}
+.btn:hover{
+  background-color: #808080;
+}
+.container2{
+  width: 100%;
+  display: flex;
+  font-family: Roboto;
+}
+.leftcontainer img{
+  width:
+}
+.leftcontainer  h1{
+  font-size: 3em;
+  padding-top: 32px;
+  letter-spacing: 3px;
+  font-weight: bold;
+}
+.leftcontainer p{
+  padding: 24px 24px 24px 0px;
+  font-size: 1.5em;
+  font-weight: 400
+  color: grey;
+  line-height: 1.3em;
+}
+.leftcontainer{
+  width: 60%;
+  padding: 32px 24px;
+}
+.container2 .stories{
+  border-left: 1px solid #DCDCDC;
+  padding: 16px 0px 32px 0px;
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+}
+.stories h3{
+  font-size: 2.5em;
+}
+.content a{
+  color: #4ba3f4;
+  text-decoration: none;
+  font-size: 1.5em;
+  display: block;
+  padding-top: .9rem;
+}
+.content{
+  display: block;
+  padding-left: 20px;
+}
+.content p{
+  font-size: 1.5em;
+}
+.story1{
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #DCDCDC;
+}
+.story2{
+  display: flex;
+  align-items: center;
+  border-top: 1px solid #DCDCDC;
+}
+.story3{
+  display: flex;
+  align-items: center;
+  background-color: #DCDCDC;
+}
+.img1{
+  padding: 16px;
+  width: 35%;
+  height: auto;
+
 }
 @media only screen and (min-width: 400px){
   .mobilenav{
