@@ -55,16 +55,20 @@ nav span{
   padding: 8px;
 }
 .container1{
+  width: 100%;
   display: flex;
   padding-top: 64px;
   background-color: #D3D3D3;
 }
-.container1 img{
-  padding: 32px 24px;
+.leftcont{
   width: 60%;
-  height: 100%;
+  padding: 32px 24px;
+}
+.leftcont img{
+  width: 100%;
 }
 .learn{
+  width: 40%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -102,7 +106,8 @@ nav span{
   font-family: Roboto;
 }
 .leftcontainer img{
-  width:
+  width: 100%;
+  height: auto;
 }
 .leftcontainer  h1{
   font-size: 3em;
@@ -121,7 +126,7 @@ nav span{
   width: 60%;
   padding: 32px 24px;
 }
-.container2 .stories{
+.stories{
   border-left: 1px solid #DCDCDC;
   padding: 16px 0px 32px 0px;
   display: flex;
@@ -139,35 +144,34 @@ nav span{
   padding-top: .9rem;
 }
 .content{
-  display: block;
   padding-left: 20px;
 }
 .content p{
   font-size: 1.5em;
 }
 .story1{
-  display: flex;
-  align-items: center;
+  width: 100%;
+    display: flex;
   border-bottom: 1px solid #DCDCDC;
 }
 .story2{
-  display: flex;
-  align-items: center;
+  width: 100%;
+    display: flex;
   border-top: 1px solid #DCDCDC;
 }
 .story3{
-  display: flex;
-  align-items: center;
+  width: 100%;
+    display: flex;
   background-color: #DCDCDC;
 }
 .img1{
   padding: 16px;
   width: 35%;
   height: auto;
-
 }
-@media only screen and (min-width: 400px){
-  .mobilenav{
-    display: none;
-  }
+@media only screen and (min-width: 580px) {
+/* Styles */
+.mobilenav{
+  display: none;
+}
 }
