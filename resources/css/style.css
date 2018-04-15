@@ -52,8 +52,6 @@ body{
 }
 .mobilenav{
   display: none;
-  width: 100%;
-  padding: 10px;
 }
 nav span{
   display: inline-block;
@@ -123,7 +121,7 @@ nav span{
 .leftcontainer p{
   padding: 24px 24px 24px 0px;
   font-size: 1.5em;
-  font-weight: 400
+  font-weight: 400;
   color: grey;
   line-height: 1.3em;
 }
@@ -233,11 +231,94 @@ nav span{
 .start{
   background-color: #DCDCDC;
 }
-@media only screen and (max-width: 770px) {
+.exhibit{
+  font-family: Roboto;
+}
+.exhibitcontent{
+  display: flex;
+  padding-left: 24px;
+  padding-bottom: 32px;
+}
+.exhibit h1{
+  text-align: center;
+  padding: 32px 0px;
+  font-size: 3.5rem;
+  font-weight: 600;
+  color: #484848;
+}
+.video{
+  width: 60%;
+  padding-right: 24px;
+}
+.video1{
+}
+.articleinsider{
+  padding: 16px;
+  display: flex;
+}
+.video h2{
+  font-size: 3em;
+letter-spacing: 3px;
+font-weight: bold;
+}
+.video p{
+    font-size: 1.5em;
+    font-weight: 400;
+    color: grey;
+    line-height: 1.3em;
+}
+.article1{
+  background-color: #DCDCDC;
+}
+.exhibittext{
+  padding-left: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
+.exhibittext h2{
+  letter-spacing: 2px;
+  font-size: 2em;
+  color: #484848,
+}
+.exhibittext p{
+  font-size: 1.5em;
+}
+.containerfooter{
+  font-family: Roboto;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 1.5rem 2.5rem 1.5rem;
+}
+.left{
+  font-size: 1.5em;
+  font-weight: 400;
+  color: grey;
+  line-height: 1.3em;
+  text-align: left;
+}
+.right{
+  justify-content: center;
+}
+.right a{
+  font-size: 1.5em;
+  text-decoration: none;
+}
+.right a:link{
+  color: #484848,
+}
+.right a:visited{
+  color: #484848;
+}
+.right a:hover{
+}
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 568px) {
   .mobilenav{
     display: inline-block;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: space-around;
     padding: 10px;
     width: 100%;
   }
