@@ -53,7 +53,7 @@ body{
 .mobilenav{
   display: none;
 }
-nav span{
+.menu span{
   display: inline-block;
   padding: 8px;
 }
@@ -298,20 +298,33 @@ font-weight: bold;
   line-height: 1.3em;
   text-align: left;
 }
-.right{
-  justify-content: center;
+.foot{
+  padding-right: 24px;
+  display: block;
 }
-.right a{
+footer{
+  align-items: center;
+}
+.foot span{
+  display: inline-block;
+}
+.foot a{
+  padding: 8px;
   font-size: 1.5em;
   text-decoration: none;
+  border-radius: 5px;
 }
-.right a:link{
+.foot a:link{
   color: #484848,
 }
-.right a:visited{
+.foot a:visited{
   color: #484848;
 }
-.right a:hover{
+.foot a:hover{
+
+  background-color: #9999ff;
+  transition-property: background-color;
+  transition-duration: 750ms;
 }
 @media only screen
 and (min-device-width : 320px)
