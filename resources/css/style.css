@@ -218,6 +218,17 @@ body{
   margin-bottom: 2rem;
   width: 33.25em;
 }
+.mobilecourses{
+  display: none;
+}
+.courses:hover{
+  transition-duration: 500ms;
+  box-shadow:
+                3px 3px #7A7A7A;
+  -webkit-transform: translateX(1px);
+  transform: translateX(1px);
+}
+}
 .picture{
 }
 .learning{
@@ -326,21 +337,45 @@ footer{
   transition-property: background-color;
   transition-duration: 750ms;
 }
-@media only screen
-and (min-device-width : 320px)
-and (max-device-width : 568px) {
+@media only screen and (max-width: 480px){
   .mobilenav{
-    display: inline-block;
+    display: flex;
+    flex-direction: row;
     justify-content: space-around;
+    align-items: center;
     padding: 10px;
     width: 100%;
   }
+.mobilecourses{
+  display: flex;
+  flex-direction: column;
+}
+.mobic{
+  margin: 4px 16px;
+  background-color: #D3D3D3;
+}
+.learning{
+  padding: 0;
+}
 .learn{
   width: 100%;
   text-align: center;
+  align-items: center;
 }
 .stories{
   width: 100%;
+}
+.story1{
+  display: flex;
+  flex-direction: column;
+}
+.courseflex{
+  display: none;
+}
+.story1 img{
+}
+.wrap{
+  background-color: white;
 }
 .btn{
   align-items: center;
@@ -365,6 +400,9 @@ and (max-device-width : 568px) {
   padding: 0 0 0 0;
 }
 .leftcontainer{
+  display: none;
+}
+.exhibitnews{
   display: none;
 }
 }
