@@ -353,6 +353,12 @@ footer{
 .mobic{
   margin: 4px 16px;
   background-color: #D3D3D3;
+  text-align: left;
+  padding-left: 16px;
+  padding-top: 16px;
+  padding-bottom: 24px;
+  font-weight: 300;
+  font-family: Roboto;
 }
 .learning{
   padding: 0;
@@ -368,11 +374,27 @@ footer{
 .story1{
   display: flex;
   flex-direction: column;
+  width: 100%;
+}
+.story2{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.story3{
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 32px;
+  width: 100%;
 }
 .courseflex{
   display: none;
 }
 .story1 img{
+}
+.img1{
+  width: 90%;
+  height: 80%;
 }
 .wrap{
   background-color: white;
@@ -390,10 +412,27 @@ footer{
 .logo .colmar{
   display: none;
 }
+.video{
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+.video1{
+  width: 100%;
+}
+.video p{
+  display: none;
+}
+.video h2{
+  display: none;
+}
 .container1{
   display: block;
   width: 100%;
   flex-direction: row;
+}
+.exhibitcontent{
+  padding: 0;
 }
 .leftcont{
   width: 100%;
@@ -404,5 +443,8 @@ footer{
 }
 .exhibitnews{
   display: none;
+}
+.foot{
+  display: none; 
 }
 }
