@@ -332,11 +332,11 @@ footer{
   color: #484848;
 }
 .foot a:hover{
-
   background-color: #9999ff;
   transition-property: background-color;
   transition-duration: 750ms;
 }
+
 @media only screen and (max-width: 480px){
   .mobilenav{
     display: flex;
